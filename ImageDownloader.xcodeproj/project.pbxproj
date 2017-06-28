@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9ED57EFD5E8B2902981E463 /* Pods_ImageDownloader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F691139DBF32AEAA9F65B37 /* Pods_ImageDownloader.framework */; };
+		F140EB3D1F0281190040CDAE /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F140EB3C1F0281190040CDAE /* Storage.swift */; };
 		F183CA981EFA4DE10073F94C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183CA971EFA4DE10073F94C /* AppDelegate.swift */; };
 		F183CA9A1EFA4DE10073F94C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F183CA991EFA4DE10073F94C /* ViewController.swift */; };
 		F183CA9D1EFA4DE10073F94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F183CA9B1EFA4DE10073F94C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		9C3DC822C1BBE11E24CB0FC1 /* Pods-ImageDownloader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDownloader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDownloader/Pods-ImageDownloader.debug.xcconfig"; sourceTree = "<group>"; };
 		9F691139DBF32AEAA9F65B37 /* Pods_ImageDownloader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageDownloader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98C756B2EB5315426C59E41 /* Pods-ImageDownloader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageDownloader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageDownloader/Pods-ImageDownloader.release.xcconfig"; sourceTree = "<group>"; };
+		F140EB3C1F0281190040CDAE /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		F183CA941EFA4DE10073F94C /* ImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F183CA971EFA4DE10073F94C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F183CA991EFA4DE10073F94C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,31 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F140EB391F0280B60040CDAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F183CAAA1EFA4E740073F94C /* ImageDownloader.swift */,
+				F140EB3C1F0281190040CDAE /* Storage.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F140EB3A1F0280C60040CDAE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F183CA991EFA4DE10073F94C /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F140EB3B1F0280FD0040CDAE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F183CA9B1EFA4DE10073F94C /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		F183CA8B1EFA4DE10073F94C = {
 			isa = PBXGroup;
 			children = (
@@ -81,9 +108,9 @@
 			isa = PBXGroup;
 			children = (
 				F183CA971EFA4DE10073F94C /* AppDelegate.swift */,
-				F183CA991EFA4DE10073F94C /* ViewController.swift */,
-				F183CAAA1EFA4E740073F94C /* ImageDownloader.swift */,
-				F183CA9B1EFA4DE10073F94C /* Main.storyboard */,
+				F140EB3A1F0280C60040CDAE /* Controllers */,
+				F140EB391F0280B60040CDAE /* Models */,
+				F140EB3B1F0280FD0040CDAE /* Views */,
 				F183CAA91EFA4DF00073F94C /* SupportingFiles */,
 			);
 			path = ImageDownloader;
@@ -224,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F183CA9A1EFA4DE10073F94C /* ViewController.swift in Sources */,
+				F140EB3D1F0281190040CDAE /* Storage.swift in Sources */,
 				F183CAAB1EFA4E740073F94C /* ImageDownloader.swift in Sources */,
 				F183CA981EFA4DE10073F94C /* AppDelegate.swift in Sources */,
 			);

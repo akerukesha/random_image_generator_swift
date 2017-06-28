@@ -14,12 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Cache.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-ImageDownloader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SwiftGifOrigin.xcscheme</key>
+		<key>SwiftHash.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,17 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9185BBF36844FB8364F37987C7E433B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>969A2EEFD23EFA74B37612859AD2DA65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9EFE4C70245EE2857D336B8B9FA4E825</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C35FEC22A8B95420349F8B13A8731E7F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F90DF0B7FF74EE5C3EC3626DFF3AAF86</key>
+		<key>E1017B82748752CF7F75F8E2C7C5277C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

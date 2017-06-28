@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double SwiftGifOriginVersionNumber;
-FOUNDATION_EXPORT const unsigned char SwiftGifOriginVersionString[];
+FOUNDATION_EXPORT double SwiftHashVersionNumber;
+FOUNDATION_EXPORT const unsigned char SwiftHashVersionString[];
 
